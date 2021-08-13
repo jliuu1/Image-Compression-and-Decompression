@@ -13,6 +13,8 @@
 		0179AEDD26C70FF9002D6539 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0179AEDC26C70FF9002D6539 /* Preview Assets.xcassets */; };
 		0179AEE826C70FF9002D6539 /* GeometricizeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0179AEE726C70FF9002D6539 /* GeometricizeTests.swift */; };
 		0179AEF326C70FF9002D6539 /* GeometricizeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0179AEF226C70FF9002D6539 /* GeometricizeUITests.swift */; };
+		01FDDAF426C71470007434D1 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FDDAF326C71470007434D1 /* HomePage.swift */; };
+		01FDDAF626C71482007434D1 /* ViewTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FDDAF526C71482007434D1 /* ViewTemplate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		0179AEEE26C70FF9002D6539 /* GeometricizeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeometricizeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0179AEF226C70FF9002D6539 /* GeometricizeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometricizeUITests.swift; sourceTree = "<group>"; };
 		0179AEF426C70FF9002D6539 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01FDDAF326C71470007434D1 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		01FDDAF526C71482007434D1 /* ViewTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTemplate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			children = (
 				0179AED526C70FF6002D6539 /* GeometricizeApp.swift */,
 				0179AED726C70FF6002D6539 /* ContentView.swift */,
+				01FDDAF326C71470007434D1 /* HomePage.swift */,
+				01FDDAF526C71482007434D1 /* ViewTemplate.swift */,
 				0179AED926C70FF9002D6539 /* Assets.xcassets */,
 				0179AEDE26C70FF9002D6539 /* Info.plist */,
 				0179AEDB26C70FF9002D6539 /* Preview Content */,
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01FDDAF626C71482007434D1 /* ViewTemplate.swift in Sources */,
 				0179AED826C70FF6002D6539 /* ContentView.swift in Sources */,
+				01FDDAF426C71470007434D1 /* HomePage.swift in Sources */,
 				0179AED626C70FF6002D6539 /* GeometricizeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
