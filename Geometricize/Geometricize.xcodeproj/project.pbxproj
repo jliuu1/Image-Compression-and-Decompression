@@ -15,6 +15,7 @@
 		0179AEF326C70FF9002D6539 /* GeometricizeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0179AEF226C70FF9002D6539 /* GeometricizeUITests.swift */; };
 		01FDDAF426C71470007434D1 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FDDAF326C71470007434D1 /* HomePage.swift */; };
 		01FDDAF626C71482007434D1 /* ViewTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FDDAF526C71482007434D1 /* ViewTemplate.swift */; };
+		01FDDAF826C7163A007434D1 /* FileTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FDDAF726C7163A007434D1 /* FileTemplate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		0179AEF426C70FF9002D6539 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01FDDAF326C71470007434D1 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		01FDDAF526C71482007434D1 /* ViewTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTemplate.swift; sourceTree = "<group>"; };
+		01FDDAF726C7163A007434D1 /* FileTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileTemplate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				0179AED726C70FF6002D6539 /* ContentView.swift */,
 				01FDDAF326C71470007434D1 /* HomePage.swift */,
 				01FDDAF526C71482007434D1 /* ViewTemplate.swift */,
+				01FDDAF726C7163A007434D1 /* FileTemplate.swift */,
 				0179AED926C70FF9002D6539 /* Assets.xcassets */,
 				0179AEDE26C70FF9002D6539 /* Info.plist */,
 				0179AEDB26C70FF9002D6539 /* Preview Content */,
@@ -268,6 +271,7 @@
 				01FDDAF626C71482007434D1 /* ViewTemplate.swift in Sources */,
 				0179AED826C70FF6002D6539 /* ContentView.swift in Sources */,
 				01FDDAF426C71470007434D1 /* HomePage.swift in Sources */,
+				01FDDAF826C7163A007434D1 /* FileTemplate.swift in Sources */,
 				0179AED626C70FF6002D6539 /* GeometricizeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
