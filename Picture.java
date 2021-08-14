@@ -79,4 +79,12 @@ public class Picture {
     public double[][] getBMatrix() {
         return this.bMatrix;
     }
+
+    public int getWidth() {
+        return this.width;
+    }
+
+    public int getHeight() {
+        return this.height;
+    }
 }

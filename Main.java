@@ -4,7 +4,6 @@ import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.net.MalformedURLException;
 import java.awt.Color;
-import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) throws MalformedURLException, IOException {
@@ -31,12 +30,26 @@ public class Main {
         // Picture pic = new Picture(image);
         // System.out.println(pic.getRGBMatrix()[0][255][0]);
 
-        String path = "water_lily.jpeg";
+        String path = "testing.jpeg";
+        // String path2 = "deer.png";
         BufferedImage bf = ImageIO.read(new File(path));
+        // BufferedImage bf2 = ImageIO.read(new File(path2));
         Picture pic1 = new Picture(bf);
-        Picture pic2 = new Picture(bf);
+        // Picture pic2 = new Picture(bf2);
 
-        Comparator comp = new Comparator(pic1);
-        System.out.println(comp.compareSVD(pic2));
+        ShapeGenerator shapeGen = new ShapeGenerator(pic1);
+        shapeGen.addShapes();
+
+        // Pixel[][] pixels = shapeGen.getShapes();
+        // for (int y = 0; y < pixels.length; ++y) {
+        // System.out.print("[");
+        // for (int x = 0; x < pixels[0].length; ++x) {
+        // System.out.print(pixels[x][y] + ", ");
+        // }
+        // System.out.println("]");
+        // }
+
+        // Comparator comp = new Comparator(pic1);
+        // System.out.println(comp.compareSVD(pic2));
     }
 }
